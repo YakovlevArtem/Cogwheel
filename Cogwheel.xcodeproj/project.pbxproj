@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC0A448E2CC156AC0085BF92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A448D2CC156AC0085BF92 /* AppDelegate.swift */; };
+		AC0A44902CC156AC0085BF92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A448F2CC156AC0085BF92 /* SceneDelegate.swift */; };
+		AC0A44922CC156AC0085BF92 /* CogwheelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A44912CC156AC0085BF92 /* CogwheelViewController.swift */; };
+		AC0A44972CC156AF0085BF92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0A44962CC156AF0085BF92 /* Assets.xcassets */; };
+		AC0A449A2CC156AF0085BF92 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AC0A44992CC156AF0085BF92 /* Base */; };
+		AC0A44A52CC156B00085BF92 /* CogwheelModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A44A42CC156B00085BF92 /* CogwheelModuleTests.swift */; };
+		AC0A44AF2CC156B00085BF92 /* CogwheelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A44AE2CC156B00085BF92 /* CogwheelUITests.swift */; };
+		AC0A44B12CC156B00085BF92 /* CogwheelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A44B02CC156B00085BF92 /* CogwheelUITestsLaunchTests.swift */; };
+		AC0A44C02CC17A770085BF92 /* CogwheelPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A44BF2CC17A770085BF92 /* CogwheelPresenter.swift */; };
+		AC0A44C22CC17AF20085BF92 /* CogwheelPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A44C12CC17AF20085BF92 /* CogwheelPresenterProtocol.swift */; };
+		AC0A44C52CC17BA70085BF92 /* CogwheelParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A44C42CC17BA70085BF92 /* CogwheelParameters.swift */; };
+		AC0A44C72CC17D5B0085BF92 /* CogwheelViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A44C62CC17D5B0085BF92 /* CogwheelViewControllerProtocol.swift */; };
+		AC0A44CA2CC1802E0085BF92 /* CogwheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A44C92CC1802E0085BF92 /* CogwheelView.swift */; };
+		AC0A44CC2CC180440085BF92 /* CogwheelViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A44CB2CC180440085BF92 /* CogwheelViewDelegate.swift */; };
+		AC0A44CE2CC1835F0085BF92 /* CogwheelViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A44CD2CC1835F0085BF92 /* CogwheelViewProtocol.swift */; };
+		AC0A44D02CC299480085BF92 /* CogwheelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A44CF2CC299470085BF92 /* CogwheelModel.swift */; };
+		AC0A44D22CC29A990085BF92 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A44D12CC29A990085BF92 /* Math.swift */; };
+		AC0A44D42CC29BC90085BF92 /* CogwheelModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A44D32CC29BC90085BF92 /* CogwheelModelProtocol.swift */; };
+		AC20DB442CC3A404005947DC /* CogwheelError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20DB432CC3A404005947DC /* CogwheelError.swift */; };
+		AC20DB482CC3D5A0005947DC /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = AC20DB472CC3D5A0005947DC /* Localizable.xcstrings */; };
+		AC20DB4A2CC3D790005947DC /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20DB492CC3D790005947DC /* Localization.swift */; };
+		AC20DB4C2CC3DFC4005947DC /* CogwheelModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20DB4B2CC3DFC4005947DC /* CogwheelModelTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC0A44A12CC156B00085BF92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0A44822CC156AC0085BF92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0A44892CC156AC0085BF92;
+			remoteInfo = CogWheel;
+		};
+		AC0A44AB2CC156B00085BF92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0A44822CC156AC0085BF92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0A44892CC156AC0085BF92;
+			remoteInfo = CogWheel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC0A448A2CC156AC0085BF92 /* Cogwheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cogwheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0A448D2CC156AC0085BF92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC0A448F2CC156AC0085BF92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC0A44912CC156AC0085BF92 /* CogwheelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CogwheelViewController.swift; sourceTree = "<group>"; };
+		AC0A44962CC156AF0085BF92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC0A44992CC156AF0085BF92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC0A449B2CC156AF0085BF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0A44A02CC156B00085BF92 /* CogwheelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CogwheelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0A44A42CC156B00085BF92 /* CogwheelModuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CogwheelModuleTests.swift; sourceTree = "<group>"; };
+		AC0A44AA2CC156B00085BF92 /* CogwheelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CogwheelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0A44AE2CC156B00085BF92 /* CogwheelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CogwheelUITests.swift; sourceTree = "<group>"; };
+		AC0A44B02CC156B00085BF92 /* CogwheelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CogwheelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC0A44BF2CC17A770085BF92 /* CogwheelPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CogwheelPresenter.swift; sourceTree = "<group>"; };
+		AC0A44C12CC17AF20085BF92 /* CogwheelPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CogwheelPresenterProtocol.swift; sourceTree = "<group>"; };
+		AC0A44C42CC17BA70085BF92 /* CogwheelParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CogwheelParameters.swift; sourceTree = "<group>"; };
+		AC0A44C62CC17D5B0085BF92 /* CogwheelViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CogwheelViewControllerProtocol.swift; sourceTree = "<group>"; };
+		AC0A44C92CC1802E0085BF92 /* CogwheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CogwheelView.swift; sourceTree = "<group>"; };
+		AC0A44CB2CC180440085BF92 /* CogwheelViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CogwheelViewDelegate.swift; sourceTree = "<group>"; };
+		AC0A44CD2CC1835F0085BF92 /* CogwheelViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CogwheelViewProtocol.swift; sourceTree = "<group>"; };
+		AC0A44CF2CC299470085BF92 /* CogwheelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CogwheelModel.swift; sourceTree = "<group>"; };
+		AC0A44D12CC29A990085BF92 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		AC0A44D32CC29BC90085BF92 /* CogwheelModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CogwheelModelProtocol.swift; sourceTree = "<group>"; };
+		AC20DB432CC3A404005947DC /* CogwheelError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CogwheelError.swift; sourceTree = "<group>"; };
+		AC20DB472CC3D5A0005947DC /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		AC20DB492CC3D790005947DC /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		AC20DB4B2CC3DFC4005947DC /* CogwheelModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CogwheelModelTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC0A44872CC156AC0085BF92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0A449D2CC156B00085BF92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0A44A72CC156B00085BF92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC0A44812CC156AC0085BF92 = {
+			isa = PBXGroup;
+			children = (
+				AC0A448C2CC156AC0085BF92 /* Cogwheel */,
+				AC0A44A32CC156B00085BF92 /* CogwheelTests */,
+				AC0A44AD2CC156B00085BF92 /* CogwheelUITests */,
+				AC0A448B2CC156AC0085BF92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC0A448B2CC156AC0085BF92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC0A448A2CC156AC0085BF92 /* Cogwheel.app */,
+				AC0A44A02CC156B00085BF92 /* CogwheelTests.xctest */,
+				AC0A44AA2CC156B00085BF92 /* CogwheelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC0A448C2CC156AC0085BF92 /* Cogwheel */ = {
+			isa = PBXGroup;
+			children = (
+				AC20DB452CC3C861005947DC /* SupportFiles */,
+				AC0A44C82CC17FCE0085BF92 /* Presenter */,
+				AC0A44C32CC17B7B0085BF92 /* Model */,
+				AC0A44BE2CC177CB0085BF92 /* Protocols */,
+				AC0A44BD2CC177B60085BF92 /* View */,
+				AC0A448D2CC156AC0085BF92 /* AppDelegate.swift */,
+				AC0A448F2CC156AC0085BF92 /* SceneDelegate.swift */,
+				AC0A449B2CC156AF0085BF92 /* Info.plist */,
+			);
+			path = Cogwheel;
+			sourceTree = "<group>";
+		};
+		AC0A44A32CC156B00085BF92 /* CogwheelTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0A44A42CC156B00085BF92 /* CogwheelModuleTests.swift */,
+				AC20DB4B2CC3DFC4005947DC /* CogwheelModelTests.swift */,
+			);
+			path = CogwheelTests;
+			sourceTree = "<group>";
+		};
+		AC0A44AD2CC156B00085BF92 /* CogwheelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0A44AE2CC156B00085BF92 /* CogwheelUITests.swift */,
+				AC0A44B02CC156B00085BF92 /* CogwheelUITestsLaunchTests.swift */,
+			);
+			path = CogwheelUITests;
+			sourceTree = "<group>";
+		};
+		AC0A44BD2CC177B60085BF92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC0A44912CC156AC0085BF92 /* CogwheelViewController.swift */,
+				AC0A44C92CC1802E0085BF92 /* CogwheelView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC0A44BE2CC177CB0085BF92 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AC0A44C12CC17AF20085BF92 /* CogwheelPresenterProtocol.swift */,
+				AC0A44C62CC17D5B0085BF92 /* CogwheelViewControllerProtocol.swift */,
+				AC0A44CB2CC180440085BF92 /* CogwheelViewDelegate.swift */,
+				AC0A44CD2CC1835F0085BF92 /* CogwheelViewProtocol.swift */,
+				AC0A44D32CC29BC90085BF92 /* CogwheelModelProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		AC0A44C32CC17B7B0085BF92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC0A44C42CC17BA70085BF92 /* CogwheelParameters.swift */,
+				AC0A44CF2CC299470085BF92 /* CogwheelModel.swift */,
+				AC0A44D12CC29A990085BF92 /* Math.swift */,
+				AC20DB432CC3A404005947DC /* CogwheelError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC0A44C82CC17FCE0085BF92 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				AC0A44BF2CC17A770085BF92 /* CogwheelPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		AC20DB452CC3C861005947DC /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				AC20DB462CC3C877005947DC /* Localization */,
+				AC0A44962CC156AF0085BF92 /* Assets.xcassets */,
+				AC0A44982CC156AF0085BF92 /* LaunchScreen.storyboard */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		AC20DB462CC3C877005947DC /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				AC20DB472CC3D5A0005947DC /* Localizable.xcstrings */,
+				AC20DB492CC3D790005947DC /* Localization.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC0A44892CC156AC0085BF92 /* Cogwheel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0A44B42CC156B00085BF92 /* Build configuration list for PBXNativeTarget "Cogwheel" */;
+			buildPhases = (
+				AC0A44862CC156AC0085BF92 /* Sources */,
+				AC0A44872CC156AC0085BF92 /* Frameworks */,
+				AC0A44882CC156AC0085BF92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cogwheel;
+			productName = CogWheel;
+			productReference = AC0A448A2CC156AC0085BF92 /* Cogwheel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC0A449F2CC156B00085BF92 /* CogwheelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0A44B72CC156B00085BF92 /* Build configuration list for PBXNativeTarget "CogwheelTests" */;
+			buildPhases = (
+				AC0A449C2CC156B00085BF92 /* Sources */,
+				AC0A449D2CC156B00085BF92 /* Frameworks */,
+				AC0A449E2CC156B00085BF92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0A44A22CC156B00085BF92 /* PBXTargetDependency */,
+			);
+			name = CogwheelTests;
+			productName = CogWheelTests;
+			productReference = AC0A44A02CC156B00085BF92 /* CogwheelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC0A44A92CC156B00085BF92 /* CogwheelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0A44BA2CC156B00085BF92 /* Build configuration list for PBXNativeTarget "CogwheelUITests" */;
+			buildPhases = (
+				AC0A44A62CC156B00085BF92 /* Sources */,
+				AC0A44A72CC156B00085BF92 /* Frameworks */,
+				AC0A44A82CC156B00085BF92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0A44AC2CC156B00085BF92 /* PBXTargetDependency */,
+			);
+			name = CogwheelUITests;
+			productName = CogWheelUITests;
+			productReference = AC0A44AA2CC156B00085BF92 /* CogwheelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC0A44822CC156AC0085BF92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AC0A44892CC156AC0085BF92 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					AC0A449F2CC156B00085BF92 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AC0A44892CC156AC0085BF92;
+					};
+					AC0A44A92CC156B00085BF92 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AC0A44892CC156AC0085BF92;
+					};
+				};
+			};
+			buildConfigurationList = AC0A44852CC156AC0085BF92 /* Build configuration list for PBXProject "Cogwheel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = AC0A44812CC156AC0085BF92;
+			productRefGroup = AC0A448B2CC156AC0085BF92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC0A44892CC156AC0085BF92 /* Cogwheel */,
+				AC0A449F2CC156B00085BF92 /* CogwheelTests */,
+				AC0A44A92CC156B00085BF92 /* CogwheelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC0A44882CC156AC0085BF92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0A44972CC156AF0085BF92 /* Assets.xcassets in Resources */,
+				AC0A449A2CC156AF0085BF92 /* Base in Resources */,
+				AC20DB482CC3D5A0005947DC /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0A449E2CC156B00085BF92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0A44A82CC156B00085BF92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC0A44862CC156AC0085BF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0A44C02CC17A770085BF92 /* CogwheelPresenter.swift in Sources */,
+				AC0A44C22CC17AF20085BF92 /* CogwheelPresenterProtocol.swift in Sources */,
+				AC0A44D42CC29BC90085BF92 /* CogwheelModelProtocol.swift in Sources */,
+				AC0A44D22CC29A990085BF92 /* Math.swift in Sources */,
+				AC0A44922CC156AC0085BF92 /* CogwheelViewController.swift in Sources */,
+				AC0A44CC2CC180440085BF92 /* CogwheelViewDelegate.swift in Sources */,
+				AC0A44D02CC299480085BF92 /* CogwheelModel.swift in Sources */,
+				AC0A44C52CC17BA70085BF92 /* CogwheelParameters.swift in Sources */,
+				AC0A448E2CC156AC0085BF92 /* AppDelegate.swift in Sources */,
+				AC0A44902CC156AC0085BF92 /* SceneDelegate.swift in Sources */,
+				AC20DB442CC3A404005947DC /* CogwheelError.swift in Sources */,
+				AC20DB4A2CC3D790005947DC /* Localization.swift in Sources */,
+				AC0A44CA2CC1802E0085BF92 /* CogwheelView.swift in Sources */,
+				AC0A44CE2CC1835F0085BF92 /* CogwheelViewProtocol.swift in Sources */,
+				AC0A44C72CC17D5B0085BF92 /* CogwheelViewControllerProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0A449C2CC156B00085BF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0A44A52CC156B00085BF92 /* CogwheelModuleTests.swift in Sources */,
+				AC20DB4C2CC3DFC4005947DC /* CogwheelModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0A44A62CC156B00085BF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0A44B12CC156B00085BF92 /* CogwheelUITestsLaunchTests.swift in Sources */,
+				AC0A44AF2CC156B00085BF92 /* CogwheelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC0A44A22CC156B00085BF92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0A44892CC156AC0085BF92 /* Cogwheel */;
+			targetProxy = AC0A44A12CC156B00085BF92 /* PBXContainerItemProxy */;
+		};
+		AC0A44AC2CC156B00085BF92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0A44892CC156AC0085BF92 /* Cogwheel */;
+			targetProxy = AC0A44AB2CC156B00085BF92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC0A44982CC156AF0085BF92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0A44992CC156AF0085BF92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC0A44B22CC156B00085BF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC0A44B32CC156B00085BF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC0A44B52CC156B00085BF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QEB59KD4RG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cogwheel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iakovlevArtem.cogwheel;
+				PRODUCT_NAME = Cogwheel;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC0A44B62CC156B00085BF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QEB59KD4RG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cogwheel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iakovlevArtem.cogwheel;
+				PRODUCT_NAME = Cogwheel;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC0A44B82CC156B00085BF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 866RT595R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.iakovlevArtem.CogWheelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cogwheel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cogwheel";
+			};
+			name = Debug;
+		};
+		AC0A44B92CC156B00085BF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 866RT595R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.iakovlevArtem.CogWheelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cogwheel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cogwheel";
+			};
+			name = Release;
+		};
+		AC0A44BB2CC156B00085BF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 866RT595R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.iakovlevArtem.CogWheelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CogWheel;
+			};
+			name = Debug;
+		};
+		AC0A44BC2CC156B00085BF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 866RT595R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.iakovlevArtem.CogWheelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CogWheel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC0A44852CC156AC0085BF92 /* Build configuration list for PBXProject "Cogwheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0A44B22CC156B00085BF92 /* Debug */,
+				AC0A44B32CC156B00085BF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0A44B42CC156B00085BF92 /* Build configuration list for PBXNativeTarget "Cogwheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0A44B52CC156B00085BF92 /* Debug */,
+				AC0A44B62CC156B00085BF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0A44B72CC156B00085BF92 /* Build configuration list for PBXNativeTarget "CogwheelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0A44B82CC156B00085BF92 /* Debug */,
+				AC0A44B92CC156B00085BF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0A44BA2CC156B00085BF92 /* Build configuration list for PBXNativeTarget "CogwheelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0A44BB2CC156B00085BF92 /* Debug */,
+				AC0A44BC2CC156B00085BF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC0A44822CC156AC0085BF92 /* Project object */;
+}
